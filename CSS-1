@@ -1,0 +1,182 @@
+h1{
+    margin-top: 200px;
+    color: blueviolet;
+    border: 40px 30px;
+    background-position: 1000px;
+    background-color: blue;
+    inline-size: 200px;
+}
+li{
+    font-size: medium;
+    color: brown;
+}
+ul{
+    color: yellowgreen;
+}
+
+h2 { 
+    font-size: 1.5em;
+    color: rgb(69, 72, 209);
+
+}
+#TEXTO {
+font-size: 1.5em;
+    color: rgb(113, 212, 74);
+}
+.titulo {
+
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(248, 37, 0);
+}
+.info {
+    color: rgb(19, 104, 102);
+}
+*{
+    color: rgb(132, 0, 255);
+}
+
+/* este es el estilo del h1 */
+*{
+    color:purple
+}
+#importante, .títulos{
+    font-size: 80px;
+}
+
+I
+/* este es el estilo del h1 */
+header{
+    background-color:white
+}
+header img{
+    width: 200px;
+}
+nav{
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+
+II
+/* este es el estilo del h1 */
+header{
+    background-color:red
+}
+header img{
+    width: 200px;
+}
+.bloqueo-logo{
+    width: 20%;
+    display: inline;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+nav ul{
+    margin-left: 50px;
+}
+nav ul li { 
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #005780;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+III prfesor
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    padding-top: 30px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+header img{
+    width: 200px;
+}
+.bloque-logo{
+    width: 20%;
+    display: inline;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+nav ul{
+    margin-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #005780;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+IV profesor 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+    <header>
+        <div class="bloqueo-logo">
+        <img src="imagenes/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">VISTAS 3D</a></li>
+                <li><a href="">ENTORNO 360°</a></li>
+                <li><a href="">STREAMING Y CHROMA KEY</a></li>
+                <li><a href="">RUEDAS DE NEGOCIO</a></li>
+                <li><a href="">EVENTOS REALIZADOS</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+V
+h1{
+background-color: red;
+padding: 50px 20px 15px 5px;
+border: 2px solid green;
+margin-top: 50px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+    <h1>TITULO</h1>
+</body>
+</html>
