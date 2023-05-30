@@ -43,6 +43,12 @@ console.log(a)
 console.log(nombreCompleto)
 console.log(nombreCompleto2)
 
+var nombre = 'Jose', apellido = 'Reyes'
+
+var a= nombre.charAt(1) + nombre.charAt(2)
+var b = nombre.substr(1,2)
+console.log(str)
+console.log(str2)
 
 
 
