@@ -112,6 +112,13 @@ function mensaje(sexo){
         break;
     }
 }
+
+function mensaje(edad){
+    
+    var mayoríadeedad = (edad >= 18) ? "Mayor de edad" : "Menor de edad"
+
+    alert(mayoríadeedad);
+}
     
 
 
