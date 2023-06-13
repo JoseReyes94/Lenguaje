@@ -54,4 +54,32 @@ function mensaje(men) {
     alert(men);
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <button onclick="javascript: mensaje('32, 'hombre');">CLICK AQUÍ</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+function mensaje(men) {
+    if(edad=>18 && sexo=="hombre"){
+    alert("si puedes pasar");}
+    }
+
+function mensaje(edad, sexo){
+    if(edad>=16 && sexo=="mujer"){
+        alert("si puedes pasar");
+    }else {
+        alert("no puedes pasar")
+    }
+}
+
 
