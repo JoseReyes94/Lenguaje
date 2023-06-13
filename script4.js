@@ -119,6 +119,17 @@ function mensaje(edad){
 
     alert(mayoríadeedad);
 }
+
+<body>
+    
+    <script>
+         var datos = [ 10, 20, 40, 60, 80, 100, 120, 140 , 160, 180, 200,220, 240,260];
+
+         for(var i=0; i < datos.length; i++){
+            document.write(datos[i] +  "</br>") 
+         }
+    </script>
+</body>
     
 
 
