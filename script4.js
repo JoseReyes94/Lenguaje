@@ -82,4 +82,36 @@ function mensaje(edad, sexo){
     }
 }
 
+function mensaje(edad){
+    
+    if(edad<=10){
+        alert("soy niño");
+    }else if(edad <=17){
+        alert("soy un joven");
+    }else if(edad <=64){
+        alert("soy un adulto");
+    }else {
+        alert("soy un anciano")
+    }
+
+}  
+
+function mensaje(sexo){
+    
+    switch (sexo) {
+        case "M", "m", "Masculino", "masculino", "MASCULINO" :
+        alert("soy hombre")
+        break;
+        
+        case "F", "f", "FEMENINO", "femenino", "Femenino":
+        alert("soy mujer")
+        break;
+        
+        default:
+        alert("No definido")
+        break;
+    }
+}
+    
+
 
